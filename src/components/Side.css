@@ -1,0 +1,62 @@
+.vertical-nav {
+    min-width: 15rem;
+    width: 15rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000;
+  }
+  .page-content {
+    width: calc(100% - 15rem);
+    margin-left: 15rem;
+    color: #fff;
+  }
+  
+  nav img {
+    width: 131px;
+    background-color: #fff;
+  }
+  nav .active-link {
+    color: #fff;
+  }
+  
+  nav div .active-link {
+    background-color: #252525;
+    border-radius: 2px;
+  }
+  
+  nav i,
+  a {
+    color: #d3d3d3;
+  }
+  
+  nav i:hover,
+  a:hover {
+    color: #fff;
+  }
+  
+  nav i {
+    font-size: 20px;
+    vertical-align: top;
+  }
+  
+  nav a {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .hr-line {
+    width: 80%;
+    background-color: #85858581;
+  }
+  
+  #playlist-holder {
+    font-size: 13px;
+  }
+  
+  nav li button {
+    background-color: inherit;
+    border: none;
+    padding: 0px;
+  }
